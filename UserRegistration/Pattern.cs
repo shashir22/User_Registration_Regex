@@ -76,7 +76,7 @@ namespace UserRegistration
             }
             while (!flag);
         }
-        public void IsValidPasswordRule1()
+        public void IsValidPasswordRule4()
         {
             bool flag;
             Console.WriteLine("Enter the Password: ");
@@ -91,6 +91,15 @@ namespace UserRegistration
 
             }
             while (!flag);
+        }
+        public void IsValidSampleEmail(string SampleEmail)
+        {
+            bool flag = (Regex.IsMatch(SampleEmail, Regex_email));
+            if (flag == true)
+                Console.WriteLine("valid");
+            else
+                Console.WriteLine("Invalid");
+
         }
 
     }
