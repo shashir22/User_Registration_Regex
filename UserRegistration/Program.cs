@@ -13,10 +13,10 @@ namespace UserRegistration
             String[] Emails = { "abc@gmail.com", "abc1@co.in", "abc@yahoo.com" };
             string[] Nunber = { "8884540867", "8660907461", "9964411161" };
             string[] Password = { "Shashi@123", "Madhu@456", "Sohan1212" };
-            //pattern.IsValidFirstName();
-            //pattern.IsValidLastName();
-            //pattern.IsValidEmail();
-            //pattern.IsValidPhoneNo();
+            pattern.IsValidFirstName();
+            pattern.IsValidLastName();
+            pattern.IsValidEmail();
+            pattern.IsValidPhoneNo();
             pattern.IsValidPasswordRule1();
         }
     }
